@@ -4,7 +4,22 @@ export default function HomePage() {
       <header style={{textAlign: 'center', marginBottom: '40px'}}>
         <h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1>
         <p style={{fontSize: '1.2rem', color: '#666'}}>Plataforma Científica de Indicadores y Donaciones para IA Automotriz en San Luis Potosí</p>
+        <p style={{fontSize: '1rem', color: '#555', marginTop: '15px', lineHeight: '1.6'}}>
+          Esta plataforma tiene como objetivo presentar un análisis estratégico integral del ecosistema de Inteligencia Artificial 
+          aplicado al sector automotriz en San Luis Potosí, México. Aquí encontrarás indicadores científicos, escenarios estratégicos, 
+          oportunidades de colaboración y un sistema de donaciones para impulsar el desarrollo tecnológico regional.
+        </p>
       </header>
+
+      <nav style={{backgroundColor: '#0070f3', padding: '15px', borderRadius: '8px', marginBottom: '30px'}}>
+        <ul style={{listStyle: 'none', display: 'flex', justifyContent: 'center', gap: '30px', margin: 0, padding: 0, flexWrap: 'wrap'}}>
+          <li><a href="#home" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Home</a></li>
+          <li><a href="#research" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Research / Investigación</a></li>
+          <li><a href="#support" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Support / Apoyo</a></li>
+          <li><a href="#donate" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Donate / Donar</a></li>
+          <li><a href="#contact" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Contact / Contacto</a></li>
+        </ul>
+      </nav>
 
       <section style={{marginBottom: '40px'}}>
         <h2 style={{borderBottom: '3px solid #0070f3', paddingBottom: '10px'}}>Introducción</h2>
@@ -61,7 +76,7 @@ export default function HomePage() {
       <section style={{marginBottom: '40px', backgroundColor: '#f3f4f6', padding: '30px', borderRadius: '10px'}}>
         <h2 style={{borderBottom: '3px solid #0070f3', paddingBottom: '10px'}}>Indicadores Científicos de Tercera Generación</h2>
         <div style={{marginTop: '20px'}}>
-          <h3 style={{color: '#0070f3'}}>1. Índice de Citación Ponderada por Sector</h3>
+          <h3 style={{color: '#0070f3', marginTop: '20px'}}>1. Índice de Citación Ponderada por Sector</h3>
           <p style={{lineHeight: '1.8', marginTop: '10px'}}>
             Mide el impacto de publicaciones científicas en IA automotriz considerando su aplicación práctica en la industria local.
           </p>
@@ -112,35 +127,39 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section style={{marginBottom: '40px', backgroundColor: '#0070f3', color: 'white', padding: '40px', borderRadius: '10px', textAlign: 'center'}}>
-        <h2 style={{fontSize: '2rem', marginBottom: '20px'}}>Sistema de Donaciones</h2>
-        <p style={{fontSize: '1.1rem', lineHeight: '1.8', marginBottom: '30px'}}>
+      <section style={{marginBottom: '40px', backgroundColor: '#fef3c7', padding: '30px', borderRadius: '10px'}}>
+        <h2 style={{borderBottom: '3px solid #f59e0b', paddingBottom: '10px'}}>Sistema de Donaciones</h2>
+        <p style={{lineHeight: '1.8', marginTop: '20px'}}>
           Apoya el desarrollo de la investigación y aplicación de IA en el sector automotriz de San Luis Potosí. 
           Tu donación contribuye a:
         </p>
-        <ul style={{textAlign: 'left', maxWidth: '600px', margin: '0 auto 30px', lineHeight: '2'}}>
+        <ul style={{lineHeight: '1.8', marginTop: '15px'}}>
           <li>Becas para estudiantes de posgrado en IA automotriz</li>
           <li>Financiamiento de proyectos de investigación aplicada</li>
           <li>Infraestructura tecnológica para laboratorios</li>
           <li>Programas de capacitación y certificación profesional</li>
         </ul>
-        <button style={{
-          backgroundColor: 'white',
-          color: '#0070f3',
-          padding: '15px 40px',
-          fontSize: '1.2rem',
-          border: 'none',
-          borderRadius: '5px',
-          cursor: 'pointer',
-          fontWeight: 'bold'
-        }}>
-          Hacer una Donación
-        </button>
+        <button style={{marginTop: '20px', backgroundColor: '#f59e0b', color: 'white', padding: '12px 30px', border: 'none', borderRadius: '5px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '600'}}>Hacer una Donación</button>
       </section>
 
-      <footer style={{textAlign: 'center', padding: '30px', borderTop: '1px solid #ddd', marginTop: '60px'}}>
-        <p style={{color: '#666'}}>© 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores y Donaciones</p>
-        <p style={{color: '#999', fontSize: '0.9rem', marginTop: '10px'}}>Contacto: contacto@fodaiaauto-slp.mx</p>
+      <section style={{marginBottom: '30px', backgroundColor: '#f9fafb', padding: '25px', borderRadius: '8px', fontSize: '0.9rem'}}>
+        <h3 style={{marginBottom: '15px', color: '#374151'}}>Políticas de Privacidad</h3>
+        <p style={{lineHeight: '1.6', color: '#6b7280'}}>
+          Esta plataforma respeta tu privacidad y está comprometida con la protección de tus datos personales. 
+          Los datos recopilados a través de formularios de contacto y donaciones son utilizados exclusivamente 
+          para los fines indicados y no son compartidos con terceros sin tu consentimiento explícito. 
+          Para más información sobre nuestras políticas de privacidad y manejo de datos, contáctanos en 
+          <a href="mailto:contacto@fodaiaauto-slp.mx" style={{color: '#0070f3', marginLeft: '5px'}}>contacto@fodaiaauto-slp.mx</a>.
+        </p>
+      </section>
+
+      <footer style={{textAlign: 'center', padding: '20px', borderTop: '2px solid #e5e7eb', marginTop: '40px'}}>
+        <p style={{color: '#6b7280', fontSize: '0.9rem'}}>
+          © 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores y Donaciones
+        </p>
+        <p style={{color: '#9ca3af', fontSize: '0.85rem', marginTop: '8px'}}>
+          Contacto: <a href="mailto:contacto@fodaiaauto-slp.mx" style={{color: '#0070f3'}}>contacto@fodaiaauto-slp.mx</a>
+        </p>
       </footer>
     </div>
   );
