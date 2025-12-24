@@ -149,17 +149,17 @@ export default function HomePage() {
           Los datos recopilados a través de formularios de contacto y donaciones son utilizados exclusivamente 
           para los fines indicados y no son compartidos con terceros sin tu consentimiento explícito. 
           Para más información sobre nuestras políticas de privacidad y manejo de datos, contáctanos en 
-          <a href="mailto:contacto@fodaiaauto-slp.mx" style={{color: '#0070f3', marginLeft: '5px'}}>contacto@fodaiaauto-slp.mx</a>.
-        </p>
+        <a href="mailto:gac@uaslp.mx" style={{color: '#0070f3', marginLeft: '5px'}}>gac@uaslp.mx</a>.        </p>
       </section>
 
       <footer style={{textAlign: 'center', padding: '20px', borderTop: '2px solid #e5e7eb', marginTop: '40px'}}>
         <p style={{color: '#6b7280', fontSize: '0.9rem'}}>
           © 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores y Donaciones
+                    <br />
+          Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.
         </p>
         <p style={{color: '#9ca3af', fontSize: '0.85rem', marginTop: '8px'}}>
-          Contacto: <a href="mailto:contacto@fodaiaauto-slp.mx" style={{color: '#0070f3'}}>contacto@fodaiaauto-slp.mx</a>
-        </p>
+          Contacto: <a href="mailto:gac@uaslp.mx" style={{color: '#0070f3'}}>gac@uaslp.mx</a>        </p>
 
                 <p style={{color: '#9ca3af', fontSize: '0.8rem', marginTop: '12px', fontStyle: 'italic'}}>
           Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.
