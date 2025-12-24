@@ -1,6 +1,5 @@
 export default function HomePage() {
-import FodaInteractive from '@/app/components/FodaInteractive';  return (
-    <div style={{maxWidth: '1200px', margin: '0 auto', padding: '20px', fontFamily: 'system-ui'}}>
+import FodaInteractive from './components/FodaInteractive';    <div style={{maxWidth: '1200px', margin: '0 auto', padding: '20px', fontFamily: 'system-ui'}}>
       <header style={{textAlign: 'center', marginBottom: '40px'}}>
         <h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1>
         <p style={{fontSize: '1.2rem', color: '#666'}}>Plataforma Científica de Indicadores y Donaciones para IA Automotriz en San Luis Potosí</p>
