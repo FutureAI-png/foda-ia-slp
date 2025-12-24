@@ -2,6 +2,17 @@ export default function HomePage() {
   return (
     <div style={{maxWidth: '1200px', margin: '0 auto', padding: '20px', fontFamily: 'system-ui'}}>
       <header style={{textAlign: 'center', marginBottom: '40px'}}>
+                {/* Logos Header */}
+        <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px'}}>
+          <div style={{display: 'flex', gap: '15px', alignItems: 'center'}}>
+            <img src="https://www.uaslp.mx/PublishingImages/Logos/Escudo-UASLP-oficial.png" alt="UASLP" style={{height: '80px'}} />
+            <img src="https://fcsyh.uaslp.mx/PublishingImages/Logos/FCSyH-Logo.png" alt="FCSyH" style={{height: '70px'}} />
+          </div>
+          <div>
+            <img src="https://copocyt.slp.gob.mx/img/logo.png" alt="COPOCYT" style={{height: '80px'}} />
+          </div>
+        </div>
+
         <h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1>
         <p style={{fontSize: '1.2rem', color: '#666'}}>Plataforma Científica de Indicadores y Donaciones para IA Automotriz en San Luis Potosí</p>
         <p style={{fontSize: '1rem', color: '#555', marginTop: '15px', lineHeight: '1.6'}}>
