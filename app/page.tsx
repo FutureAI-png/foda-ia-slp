@@ -1,6 +1,5 @@
 export default function HomePage() {
-import FodaInteractive from './components/FodaInteractive';
-  return (
+import FodaInteractive from '@/app/components/FodaInteractive';  return (
     <div style={{maxWidth: '1200px', margin: '0 auto', padding: '20px', fontFamily: 'system-ui'}}>
       <header style={{textAlign: 'center', marginBottom: '40px'}}>
         <h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1>
