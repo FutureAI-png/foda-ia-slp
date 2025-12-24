@@ -1,4 +1,5 @@
 export default function HomePage() {
+import FodaInteractive from './components/FodaInteractive';
   return (
     <div style={{maxWidth: '1200px', margin: '0 auto', padding: '20px', fontFamily: 'system-ui'}}>
       <header style={{textAlign: 'center', marginBottom: '40px'}}>
@@ -20,6 +21,9 @@ export default function HomePage() {
           <li><a href="#contact" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Contact / Contacto</a></li>
         </ul>
       </nav>
+
+      {/* FODA Interactive Component - Fundamental for the site */}
+      <FodaInteractive />
 
       <section style={{marginBottom: '40px'}}>
         <h2 style={{borderBottom: '3px solid #0070f3', paddingBottom: '10px'}}>Introducción</h2>
