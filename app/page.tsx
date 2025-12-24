@@ -112,7 +112,6 @@ export default function HomePage() {
           <h3 style={{fontSize: '1.5rem', marginBottom: '20px'}}>Reconocimientos y Financiamiento</h3>
           <p style={{fontSize: '1.05rem', lineHeight: '1.9', marginBottom: '25px', opacity: 0.9}}>
             Este proyecto cuenta con el apoyo de la Universidad Autónoma de San Luis Potosí (UASLP) y colaboradores del sector automotriz regional.
-                          <p style={{fontSize: '1.05rem', lineHeight: '1.9', marginBottom: '25px', opacity: 0.9}}>Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.</p>
           </p>
           <div style={{borderTop: '1px solid rgba(255,255,255,0.2)', paddingTop: '25px', marginTop: '30px'}}>
             <p style={{fontSize: '1rem', marginBottom: '10px'}}>© 2025 FODA IA Automotriz SLP</p>
