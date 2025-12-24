@@ -160,6 +160,10 @@ export default function HomePage() {
         <p style={{color: '#9ca3af', fontSize: '0.85rem', marginTop: '8px'}}>
           Contacto: <a href="mailto:contacto@fodaiaauto-slp.mx" style={{color: '#0070f3'}}>contacto@fodaiaauto-slp.mx</a>
         </p>
+
+                <p style={{color: '#9ca3af', fontSize: '0.8rem', marginTop: '12px', fontStyle: 'italic'}}>
+          Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.
+        </p>
       </footer>
     </div>
   );
