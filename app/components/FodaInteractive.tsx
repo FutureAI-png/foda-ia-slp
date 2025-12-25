@@ -2,16 +2,11 @@
 
 import { useState } from 'react';
 
-interface Message {
-  role: 'user' | 'assistant';
-  content: string;
-}
-
 export default function FodaInteractive() {
-  const [messages, setMessages] = useState<Message[]>([]);
+  const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
-  const [activeSection, setActiveSection] = useState<string | null>(null);
+  const [activeSection, setActiveSection] = useState(null);
 
   const fodaSections = {
     fortalezas: {
@@ -62,8 +57,8 @@ export default function FodaInteractive() {
 
   const sendMessage = async () => {
     if (!input.trim()) return;
-
-    const userMessage = { role: 'user' as const, content: input };
+    
+    const userMessage = { role: 'user', content: input };
     setMessages([...messages, userMessage]);
     setInput('');
     setLoading(true);
@@ -74,7 +69,7 @@ export default function FodaInteractive() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: input })
       });
-
+      
       const data = await response.json();
       setMessages(prev => [...prev, { role: 'assistant', content: data.reply }]);
     } catch (error) {
