@@ -456,8 +456,7 @@ export async function POST(request: NextRequest) {
         details: {
           [aspect]: fullAnalysis.details[aspect as keyof typeof fullAnalysis.details]
         }
-      };
-    }
+      } as any;    }
     
     return NextResponse.json({
       success: true,
