@@ -10,7 +10,6 @@ export default function HomePage() {
         aplicado al sector automotriz en San Luis Potosí, México. Aquí encontrarás indicadores científicos, escenarios estratégicos, 
         oportunidades de colaboración y un sistema de donaciones para impulsar el desarrollo tecnológico regional.
       </p>
-      </header>
 
       <nav style={{backgroundColor: '#0070f3', padding: '15px', borderRadius: '8px', marginBottom: '30px'}}>
         <ul style={{listStyle: 'none', display: 'flex', justifyContent: 'center', gap: '30px', margin: 0, padding: 0, flexWrap: 'wrap'}}>
