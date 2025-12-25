@@ -21,7 +21,7 @@ export default function HomePage() {
             {/* Header Principal */}
             <header style={{textAlign: 'center', marginBottom: '50px', padding: '80px 30px', background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', borderRadius: '20px', color: 'white', boxShadow: '0 10px 40px rgba(0,0,0,0.2)'}}>
               <h1 style={{fontSize: '4rem', fontWeight: '800', marginBottom: '25px', textShadow: '3px 3px 6px rgba(0,0,0,0.3)', lineHeight: 1.2}}>Plataforma de Inteligencia Artificial para la IA Automotriz en San Luis Potosí</h1>
-              <p style={{fontSize: '1.4rem', marginTop: '25px', opacity: 0.95, fontWeight: '500'}}>Análisis FODA • Indicadores Científicos • Escenarios • Donaciones</p>
+              <p style={{fontSize: '1.4rem', marginTop: '25px', opacity: 0.95, fontWeight: '500'}}>Análisis FODA • Indicadores Científicos • Escenarios</p>
             </header>
 
             {/* FODA Interactivo */}
@@ -75,15 +75,6 @@ export default function HomePage() {
               ))}
             </section>
 
-            {/* Donaciones */}
-            <section style={{marginBottom: '60px', background: '#0070f3', color: 'white', padding: '50px', borderRadius: '20px', textAlign: 'center'}}>
-              <h2 style={{fontSize: '2.8rem', marginBottom: '25px'}}>Sistema de Donaciones</h2>
-              <p style={{fontSize: '1.2rem', lineHeight: '1.9', marginBottom: '30px'}}>Apoya el desarrollo de IA en el sector automotriz de SLP</p>
-              <ul style={{textAlign: 'left', maxWidth: '700px', margin: '0 auto 35px', lineHeight: '2.2', fontSize: '1.1rem'}}>
-                {['Becas para estudiantes de posgrado', 'Financiamiento de investigación aplicada', 'Infraestructura tecnológica', 'Programas de capacitación'].map((item, i) => <li key={i}>• {item}</li>)}
-              </ul>
-              <button style={{background: 'white', color: '#0070f3', padding: '18px 45px', fontSize: '1.3rem', border: 'none', borderRadius: '10px', cursor: 'pointer', fontWeight: 'bold', boxShadow: '0 6px 20px rgba(0,0,0,0.2)'}}>Hacer una Donación</button>
-            </section>
           </>
         )}
 
