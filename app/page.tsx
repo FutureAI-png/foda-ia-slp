@@ -1,6 +1,6 @@
 export default function HomePage() {
-// import FodaInteractive from './components/FodaInteractive';      <header style={{textAlign: 'center', marginBottom: '40px'}}>
-        <h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1>
+        import FodaInteractive from './components/FodaInteractive';
+          return (<h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1>
         <p style={{fontSize: '1.2rem', color: '#666'}}>Plataforma Científica de Indicadores y Donaciones para IA Automotriz en San Luis Potosí</p>
         <p style={{fontSize: '1rem', color: '#555', marginTop: '15px', lineHeight: '1.6'}}>
           Esta plataforma tiene como objetivo presentar un análisis estratégico integral del ecosistema de Inteligencia Artificial 
@@ -19,9 +19,8 @@ export default function HomePage() {
         </ul>
       </nav>
 
-{/* FODA Interactive Component - Fundamental for the site */}
-      {/* <FodaInteractive /> */}
-      <section style={{marginBottom: '40px'}}>
+      {/* FODA Interactive Component - Fundamental for the site */}
+      <FodaInteractive />      <section style={{marginBottom: '40px'}}>
         <h2 style={{borderBottom: '3px solid #0070f3', paddingBottom: '10px'}}>Introducción</h2>
         <p style={{lineHeight: '1.8', marginTop: '20px'}}>
           Esta plataforma presenta un análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) 
