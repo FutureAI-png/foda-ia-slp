@@ -1,14 +1,15 @@
 import FodaInteractive from './components/FodaInteractive';
 
 export default function HomePage() {
-        return (
-            <div>
-                                      <h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1><p style={{fontSize: '1.2rem', color: '#666'}}>Plataforma Científica de Indicadores y Donaciones para IA Automotriz en San Luis Potosí</p>
-        <p style={{fontSize: '1rem', color: '#555', marginTop: '15px', lineHeight: '1.6'}}>
-          Esta plataforma tiene como objetivo presentar un análisis estratégico integral del ecosistema de Inteligencia Artificial 
-          aplicado al sector automotriz en San Luis Potosí, México. Aquí encontrarás indicadores científicos, escenarios estratégicos, 
-          oportunidades de colaboración y un sistema de donaciones para impulsar el desarrollo tecnológico regional.
-        </p>
+  return (
+    <div>
+      <h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1>
+      <p style={{fontSize: '1.2rem', color: '#666'}}>Plataforma Científica de Indicadores y Donaciones para IA Automotriz en San Luis Potosí</p>
+      <p style={{fontSize: '1rem', color: '#555', marginTop: '15px', lineHeight: '1.6'}}>
+        Esta plataforma tiene como objetivo presentar un análisis estratégico integral del ecosistema de Inteligencia Artificial 
+        aplicado al sector automotriz en San Luis Potosí, México. Aquí encontrarás indicadores científicos, escenarios estratégicos, 
+        oportunidades de colaboración y un sistema de donaciones para impulsar el desarrollo tecnológico regional.
+      </p>
       </header>
 
       <nav style={{backgroundColor: '#0070f3', padding: '15px', borderRadius: '8px', marginBottom: '30px'}}>
@@ -22,7 +23,9 @@ export default function HomePage() {
       </nav>
 
       {/* FODA Interactive Component - Fundamental for the site */}
-      <FodaInteractive />      <section style={{marginBottom: '40px'}}>
+      <FodaInteractive />
+
+      <section style={{marginBottom: '40px'}}>
         <h2 style={{borderBottom: '3px solid #0070f3', paddingBottom: '10px'}}>Introducción</h2>
         <p style={{lineHeight: '1.8', marginTop: '20px'}}>
           Esta plataforma presenta un análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) 
@@ -150,19 +153,20 @@ export default function HomePage() {
           Los datos recopilados a través de formularios de contacto y donaciones son utilizados exclusivamente 
           para los fines indicados y no son compartidos con terceros sin tu consentimiento explícito. 
           Para más información sobre nuestras políticas de privacidad y manejo de datos, contáctanos en 
-        <a href="mailto:gac@uaslp.mx" style={{color: '#0070f3', marginLeft: '5px'}}>gac@uaslp.mx</a>.        </p>
+          <a href="mailto:gac@uaslp.mx" style={{color: '#0070f3', marginLeft: '5px'}}>gac@uaslp.mx</a>.
+        </p>
       </section>
 
       <footer style={{textAlign: 'center', padding: '20px', borderTop: '2px solid #e5e7eb', marginTop: '40px'}}>
         <p style={{color: '#6b7280', fontSize: '0.9rem'}}>
           © 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores y Donaciones
-                    <br />
+          <br />
           Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.
         </p>
         <p style={{color: '#9ca3af', fontSize: '0.85rem', marginTop: '8px'}}>
-          Contacto: <a href="mailto:gac@uaslp.mx" style={{color: '#0070f3'}}>gac@uaslp.mx</a>        </p>
-
-                <p style={{color: '#9ca3af', fontSize: '0.8rem', marginTop: '12px', fontStyle: 'italic'}}>
+          Contacto: <a href="mailto:gac@uaslp.mx" style={{color: '#0070f3'}}>gac@uaslp.mx</a>
+        </p>
+        <p style={{color: '#9ca3af', fontSize: '0.8rem', marginTop: '12px', fontStyle: 'italic'}}>
           Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.
         </p>
       </footer>
