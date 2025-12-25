@@ -29,7 +29,7 @@ export default function HomePage() {
           Esta plataforma presenta un análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas) 
           del ecosistema de Inteligencia Artificial aplicado al sector automotriz en San Luis Potosí, México. 
           El análisis integra indicadores científicos de tercera generación, escenarios estratégicos y 
-          un sistema de donaciones para impulsar el desarrollo tecnológico regional.
+          y impulsar el desarrollo tecnológico regional.
         </p>
       </section>
 
@@ -129,30 +129,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section style={{marginBottom: '40px', backgroundColor: '#fef3c7', padding: '30px', borderRadius: '10px'}}>
-        <h2 style={{borderBottom: '3px solid #f59e0b', paddingBottom: '10px'}}>Sistema de Donaciones</h2>
-        <p style={{lineHeight: '1.8', marginTop: '20px'}}>
-          Apoya el desarrollo de la investigación y aplicación de IA en el sector automotriz de San Luis Potosí. 
-          Tu donación contribuye a:
-        </p>
-        <ul style={{lineHeight: '1.8', marginTop: '15px'}}>
-          <li>Becas para estudiantes de posgrado en IA automotriz</li>
-          <li>Financiamiento de proyectos de investigación aplicada</li>
-          <li>Infraestructura tecnológica para laboratorios</li>
-          <li>Programas de capacitación y certificación profesional</li>
-        </ul>
-        <button style={{marginTop: '20px', backgroundColor: '#f59e0b', color: 'white', padding: '12px 30px', border: 'none', borderRadius: '5px', fontSize: '1.1rem', cursor: 'pointer', fontWeight: '600'}}>Hacer una Donación</button>
-      </section>
 
-      <section style={{marginBottom: '30px', backgroundColor: '#f9fafb', padding: '25px', borderRadius: '8px', fontSize: '0.9rem'}}>
-        <h3 style={{marginBottom: '15px', color: '#374151'}}>Políticas de Privacidad</h3>
-        <p style={{lineHeight: '1.6', color: '#6b7280'}}>
-          Esta plataforma respeta tu privacidad y está comprometida con la protección de tus datos personales. 
-          Los datos recopilados a través de formularios de contacto  son utilizados exclusivamente 
-          para los fines indicados y no son compartidos con terceros sin tu consentimiento explícito. 
-          Para más información sobre nuestras políticas de privacidad y manejo de datos.  
-        </p>
-      </section>
 
       <footer style={{textAlign: 'center', padding: '20px', borderTop: '2px solid #e5e7eb', marginTop: '40px'}}>
         <p style={{color: '#6b7280', fontSize: '0.9rem'}}>
