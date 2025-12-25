@@ -4,11 +4,11 @@ export default function HomePage() {
   return (
     <div>
       <h1 style={{fontSize: '2.5rem', marginBottom: '10px'}}>FODA IA Automotriz SLP</h1>
-      <p style={{fontSize: '1.2rem', color: '#666'}}>Plataforma Científica de Indicadores y Donaciones para IA Automotriz en San Luis Potosí</p>
+      <p style={{fontSize: '1.2rem', color: '#666'}}>Plataforma Científica de Indicadores  para IA Automotriz en San Luis Potosí</p>
       <p style={{fontSize: '1rem', color: '#555', marginTop: '15px', lineHeight: '1.6'}}>
         Esta plataforma tiene como objetivo presentar un análisis estratégico integral del ecosistema de Inteligencia Artificial 
         aplicado al sector automotriz en San Luis Potosí, México. Aquí encontrarás indicadores científicos, escenarios estratégicos, 
-        oportunidades de colaboración y un sistema de donaciones para impulsar el desarrollo tecnológico regional.
+        oportunidades de colaboración  para impulsar el desarrollo tecnológico regional.
       </p>
 
       <nav style={{backgroundColor: '#0070f3', padding: '15px', borderRadius: '8px', marginBottom: '30px'}}>
@@ -16,7 +16,6 @@ export default function HomePage() {
           <li><a href="#home" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Home</a></li>
           <li><a href="#research" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Research / Investigación</a></li>
           <li><a href="#support" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Support / Apoyo</a></li>
-          <li><a href="#donate" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Donate / Donar</a></li>
           <li><a href="#contact" style={{color: 'white', textDecoration: 'none', fontSize: '1.1rem', fontWeight: '600'}}>Contact / Contacto</a></li>
         </ul>
       </nav>
@@ -149,23 +148,16 @@ export default function HomePage() {
         <h3 style={{marginBottom: '15px', color: '#374151'}}>Políticas de Privacidad</h3>
         <p style={{lineHeight: '1.6', color: '#6b7280'}}>
           Esta plataforma respeta tu privacidad y está comprometida con la protección de tus datos personales. 
-          Los datos recopilados a través de formularios de contacto y donaciones son utilizados exclusivamente 
+          Los datos recopilados a través de formularios de contacto  son utilizados exclusivamente 
           para los fines indicados y no son compartidos con terceros sin tu consentimiento explícito. 
-          Para más información sobre nuestras políticas de privacidad y manejo de datos, contáctanos en 
-          <a href="mailto:gac@uaslp.mx" style={{color: '#0070f3', marginLeft: '5px'}}>gac@uaslp.mx</a>.
+          Para más información sobre nuestras políticas de privacidad y manejo de datos.  
         </p>
       </section>
 
       <footer style={{textAlign: 'center', padding: '20px', borderTop: '2px solid #e5e7eb', marginTop: '40px'}}>
         <p style={{color: '#6b7280', fontSize: '0.9rem'}}>
-          © 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores y Donaciones
+          © 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores 
           <br />
-          Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.
-        </p>
-        <p style={{color: '#9ca3af', fontSize: '0.85rem', marginTop: '8px'}}>
-          Contacto: <a href="mailto:gac@uaslp.mx" style={{color: '#0070f3'}}>gac@uaslp.mx</a>
-        </p>
-        <p style={{color: '#9ca3af', fontSize: '0.8rem', marginTop: '12px', fontStyle: 'italic'}}>
           Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.
         </p>
       </footer>
