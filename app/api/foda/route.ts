@@ -217,4 +217,4 @@ export async function GET(request: NextRequest) {
 // Configuración de Next.js para esta ruta
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
-export const revalidate = CACHE_TTL;
+export const revalidate = 300
