@@ -101,14 +101,107 @@ export default function HomePage() {
 
           </>
         )}
+{activeTab === 'research' && (
+  <section style={{ padding: '60px 20px' }}>
+    <h2
+      style={{
+        fontSize: '2.6rem',
+        color: '#0070f3',
+        marginBottom: '20px',
+        textAlign: 'center',
+      }}
+    >
+      Investigación y Publicaciones
+    </h2>
 
-        {activeTab === 'research' && (
-          <div style={{padding: '60px 30px', textAlign: 'center'}}>
-            <h2 style={{fontSize: '3rem', color: '#0070f3', marginBottom: '30px'}}>Investigación y Publicaciones</h2>
-            <p style={{fontSize: '1.3rem', color: '#64748b'}}>Sección en desarrollo - Próximamente publicaciones científicas y proyectos de investigación</p>
+    <p
+      style={{
+        fontSize: '1rem',
+        color: '#64748b',
+        maxWidth: '800px',
+        margin: '0 auto 40px',
+        textAlign: 'center',
+        lineHeight: 1.7,
+      }}
+    >
+      Los siguientes reportes documentan la fundamentación teórica, el análisis
+      cuantitativo y la validación práctica de los indicadores de tercera
+      generación utilizados por la plataforma FODA IA para el sector automotriz
+      de San Luis Potosí.
+    </p>
+
+    <div
+      style={{
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
+        gap: '24px',
+      }}
+    >
+      {researchReports.map((report) => (
+        <article
+          key={report.slug}
+          style={{
+            borderRadius: '16px',
+            border: '1px solid #e5e7eb',
+            backgroundColor: '#ffffff',
+            padding: '20px',
+            boxShadow: '0 4px 16px rgba(15,23,42,0.08)',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+          }}
+        >
+          <div>
+            <h3
+              style={{
+                fontSize: '1.2rem',
+                fontWeight: 600,
+                marginBottom: '8px',
+                color: '#0f172a',
+              }}
+            >
+              {report.title}
+            </h3>
+            <p
+              style={{
+                fontSize: '0.8rem',
+                color: '#6b7280',
+                marginBottom: '10px',
+              }}
+            >
+              Año {report.year}
+            </p>
+            <p
+              style={{
+                fontSize: '0.95rem',
+                color: '#111827',
+                lineHeight: 1.6,
+              }}
+            >
+              {report.summary}
+            </p>
           </div>
-        )}
 
+          <a
+            href={`/docs/${report.slug}`}
+            style={{
+              marginTop: '14px',
+              fontSize: '0.9rem',
+              color: '#0ea5e9',
+              textDecoration: 'underline',
+              textUnderlineOffset: '4px',
+              alignSelf: 'flex-start',
+            }}
+          >
+            Leer reporte completo
+          </a>
+        </article>
+      ))}
+    </div>
+  </section>
+)}
+
+        
         {activeTab === 'support' && (
           <div style={{padding: '60px 30px'}}>
             <h2 style={{fontSize: '3rem', color: '#0070f3', marginBottom: '40px', textAlign: 'center'}}>Soporte y Contacto</h2>
