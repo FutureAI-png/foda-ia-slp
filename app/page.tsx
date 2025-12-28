@@ -73,6 +73,7 @@ const researchReports = [
 
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState('home');
+    const { foda, indicadores, loading, error } = useFodaData();
 
   return (
     <div style={{fontFamily: 'system-ui'}}>
