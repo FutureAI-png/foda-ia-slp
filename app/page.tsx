@@ -200,8 +200,7 @@ export default function HomePage() {
     </div>
   </section>
 )}
-
-        
+      
         {activeTab === 'support' && (
           <div style={{padding: '60px 30px'}}>
             <h2 style={{fontSize: '3rem', color: '#0070f3', marginBottom: '40px', textAlign: 'center'}}>Soporte y Contacto</h2>
