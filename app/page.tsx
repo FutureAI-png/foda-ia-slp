@@ -1,5 +1,51 @@
 'use client';
 import { useState } from 'react';
+import { useEffect } from 'react';
+import type { FodaItem, IndicadoresData } from '@/types/foda';
+
+
+// Custom Hook para fetch de datos desde el backend FODA-IA
+function useFodaData() {
+  const [foda, setFoda] = useState<FodaItem[]>([]);
+  const [indicadores, setIndicadores] = useState<IndicadoresData | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        setLoading(true);
+        setError(null);
+
+        const [fodaRes, indRes] = await Promise.all([
+          fetch('/api/foda'),
+          fetch('/api/indicadores'),
+        ]);
+
+        if (!fodaRes.ok) throw new Error('Error al cargar FODA');
+        if (!indRes.ok) throw new Error('Error al cargar indicadores');
+
+        const fodaJson = await fodaRes.json();
+        const indJson = await indRes.json();
+
+        setFoda(fodaJson.data || fodaJson);
+        setIndicadores(indJson.data || indJson);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Error desconocido');
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchData();
+
+    // Refresco automático cada 5 minutos
+    const interval = setInterval(fetchData, 5 * 60 * 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  return { foda, indicadores, loading, error };
+}
 
 const researchReports = [
   {
