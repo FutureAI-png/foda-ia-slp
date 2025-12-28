@@ -1,6 +1,30 @@
 'use client';
 import { useState } from 'react';
 
+const researchReports = [
+  {
+    slug: "reporte-1-indicadores-tercera-generacion",
+    title: "Reporte 1: Fundamentación de Indicadores de Tercera Generación",
+    summary:
+      "Marco conceptual y justificación teórica de los indicadores ICPS, CCIA, ITT y MIS como base del sistema FODA IA.",
+    year: 2025,
+  },
+  {
+    slug: "reporte-2-analisis-cuantitativo",
+    title: "Reporte 2: Análisis Cuantitativo del Sector Automotriz SLP",
+    summary:
+      "Resultados econométricos y de series de tiempo 2015–2025 que validan estadísticamente los indicadores ICPS, CCIA, ITT y MIS.",
+    year: 2025,
+  },
+  {
+    slug: "reporte-3-casos-estudio-bmw-gm",
+    title: "Reporte 3: Casos de Estudio BMW–GM y Validación Práctica",
+    summary:
+      "Validación en planta de los indicadores mediante casos de estudio en BMW y GM San Luis Potosí, y propuesta de APIs operativas.",
+    year: 2025,
+  },
+];
+
 export default function HomePage() {
   const [activeTab, setActiveTab] = useState('home');
 
