@@ -69,6 +69,13 @@ const researchReports = [
       "Validación en planta de los indicadores mediante casos de estudio en BMW y GM San Luis Potosí, y propuesta de APIs operativas.",
     year: 2025,
   },
+    {
+    slug: "reporte-4-implementacion-roadmap",
+    title: "Reporte 4: Roadmap de Implementación y Recomendaciones Estratégicas",
+    summary:
+      "Hoja de ruta práctica para implementar los indicadores FODA IA en la industria automotriz de SLP con recomendaciones policy-makers y empresas.",
+    year: 2025,
+  },
 ];
 
 export default function HomePage() {
