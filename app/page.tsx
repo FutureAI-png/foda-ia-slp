@@ -268,7 +268,7 @@ export default function HomePage() {
             Este proyecto cuenta con el apoyo de la Universidad Autónoma de San Luis Potosí (UASLP) y colaboradores del sector automotriz regional.
           </p>
           <div style={{borderTop: '1px solid rgba(255,255,255,0.2)', paddingTop: '25px', marginTop: '30px'}}>
-            <p sty<p style={{fontSize: '1rem', marginBottom: '10px'}}>© 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores </p> Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.</p>
+            <p style={{fontSize: '1rem', marginBottom: '10px'}}>© 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores</p>         <p style={{fontSize: '1rem', marginBottom: '10px'}}>Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.</p>
            /div>
         </div>
       </footer>
