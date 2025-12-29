@@ -28,8 +28,8 @@ function useFodaData() {
         const fodaJson = await fodaRes.json();
         const indJson = await indRes.json();
 
-        setFoda(fodaJson.data || fodaJson);
-        setIndicadores(indJson.data || indJson);
+        setFoda(fodaJson.data ?? fodaJson);
+        setIndicadores(indJson.data ?? indJson);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Error desconocido');
       } finally {
