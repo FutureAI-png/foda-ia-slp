@@ -83,7 +83,7 @@ export default function HomePage() {
           {[{id: 'home', label: 'Inicio'}, {id: 'research', label: 'Investigación y Publicaciones'}, {id: 'support', label: 'Soporte'}].map(tab => (
             <button key={tab.id} onClick={() => setActiveTab(tab.id)} style={{background: activeTab === tab.id ? 'rgba(255,255,255,0.25)' : 'transparent', color: 'white', border: 'none', padding: '0.75rem 1.5rem', fontSize: '1.05rem', fontWeight: activeTab === tab.id ? 'bold' : 'normal', cursor: 'pointer', borderRadius: '8px', transition: 'all 0.3s'}}>{tab.label}</button>
           ))}
-        </div>
+        <79
       </nav>
 
       <div style={{maxWidth: '1200px', margin: '0 auto', padding: '20px'}}>
@@ -268,7 +268,7 @@ export default function HomePage() {
             Este proyecto cuenta con el apoyo de la Universidad Autónoma de San Luis Potosí (UASLP) y colaboradores del sector automotriz regional.
           </p>
           <div style={{borderTop: '1px solid rgba(255,255,255,0.2)', paddingTop: '25px', marginTop: '30px'}}>
-            <p style={{fontSize: '1rem', marginBottom: '10px'}}>© 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores y Donaciones Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.</p>
+            <p sty<p style={{fontSize: '1rem', marginBottom: '10px'}}>© 2025 FODA IA Automotriz SLP - Plataforma Científica de Indicadores </p> Project supported by FCSyH—UASLP and the Consejo Potosino de Ciencia y Tecnología, San Luis Potosí México, with funds from Trust 23871, from electoral fines.</p>
            /div>
         </div>
       </footer>
